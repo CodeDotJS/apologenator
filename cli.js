@@ -45,7 +45,7 @@ if (arg === '-c') {
 
 dns.lookup('apologygenerator.com', err => {
 	if (err) {
-		logUpdate(``);
+		logUpdate(`\n ${chalk.red('✖')}  ${chalk.dim('Seems like your Intenret connection is fucked!')}\n`);
 		end(1);
 	} else {
 		logUpdate();
