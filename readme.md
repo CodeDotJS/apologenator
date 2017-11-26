@@ -1,8 +1,8 @@
 <h1 align="center">
 	<br>
-	<img width="500px" src="media/apology.png">
+	<img width="500px" src="https://raw.githubusercontent.com/CodeDotJS/apologenator/master/media/apology.png">
 	<br>
-	<img src="https://travis-ci.org/CodeDotJS/freecodecamp-podcast-dl.svg?branch=master">  <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
+	<img src="https://travis-ci.org/CodeDotJS/apologenator.svg?branch=master">  <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
 	<br>
 </h1>
 
@@ -18,7 +18,7 @@ $ npm install --global apologenator
 
 `This is a command line version for the` __[`Apology Generator`](https://apologygenerator.com)__
 
-<p align="center"><img src="media/apology.gif"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/CodeDotJS/apologenator/master/media/apology.gif"></p>
 
 ## Usage
 
