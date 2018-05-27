@@ -11,3 +11,14 @@ test.cb('main', t => {
 		t.end();
 	});
 });
+
+test.cb('save', t => {
+	const cp = childProcess.spawn('./cli.js', ['-g', '--save'], {stdio: 'inherit'});
+
+	cp.on('error', t.ifError);
+
+	cp.on('close', code => {
+		t.is(code, 0);
+		t.end();
+	});
+});
